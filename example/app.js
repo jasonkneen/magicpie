@@ -23,16 +23,16 @@ var view = MagicPie.createView({
     height: 200, //Ti.UI.SIZE,
     backgroundColor: "red",
     values: [{
-        id: 'b',
+        itemid: 'b',
         title: "hello",
         color: 'yellow',
         value: 8
     }, {
-        id: 'c',
+        itemid: 'c',
         color: 'blue',
         value: 5
     }, {
-        id: 'a',
+        itemid: 'a',
         color: 'green',
         value: 2
     }]
@@ -63,12 +63,12 @@ var donut = MagicPie.createView({
         color: 'yellow',
         value: 3
     }, {
-        id: 'c',
+        itemid: 'c',
         title: "hello 2",
         color: 'blue',
         value: 4
     }, {
-        id: 'a',
+        itemid: 'a',
         title: "hello 3",
         color: 'green',
         value: 4
@@ -105,7 +105,7 @@ var gauge = MagicPie.createView({
         color: 'yellow',
         value: 3
     }, {
-        id: 'c',
+        itemid: 'c',
         title: "hello 2",
         color: 'blue',
         value: 4
