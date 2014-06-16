@@ -47,7 +47,7 @@
     
     CGPoint pos = [tap locationInView:tap.view];
     NappPieElement* tappedElem = (NappPieElement*)[pieLayer pieElemInPoint:pos];
-    
+
     if(!tappedElem)
         return;
     
@@ -57,6 +57,8 @@
     if([self.proxy _hasListeners:@"selected"]){
         NSDictionary *event = [NSDictionary dictionaryWithObjectsAndKeys:
                                NUMFLOAT(tappedElem.val),@"value",
+                               NUMFLOAT(pos.x), @"positionx",
+                               NUMFLOAT(pos.y), @"positiony",
                                tappedElem.title,@"title",
                                tappedElem.itemId,@"itemid",
                                nil];
