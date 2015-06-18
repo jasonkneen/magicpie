@@ -1,0 +1,38 @@
+{
+  "version": "1.1.0",
+  "description": "MagicPie",
+  "author": "Fokke Zandbergen and Mads Møller",
+  "license": "Copyright (c) 2014 by Fokke Zandbergen",
+  "name": "ti-module-nl.fokkezb.magicpie",
+  "appc-npm": {
+    "target": {
+      "titanium": "/",
+      "alloy": "/"
+    },
+    "unzip": [
+      "dist/nl.fokkezb.magicpie-iphone-1.1.0.zip"
+    ]
+  },
+  "files": [
+    "appc-npm",
+    "dist/nl.fokkezb.magicpie-iphone-1.1.0.zip"
+  ],
+  "scripts": {
+    "postinstall": "node ./appc-npm"
+  },
+  "keywords": [
+    "appcelerator",
+    "appc-npm",
+    "ti-module",
+    "titanium",
+    "alloy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FokkeZB/magicpie.git"
+  },
+  "homepage": "https://github.com/FokkeZB/magicpie",
+  "bugs": {
+    "url": "https://github.com/FokkeZB/magicpie/issues"
+  }
+}
