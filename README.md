@@ -1,14 +1,24 @@
-# MagicPie
+# MagicPie [![gitTio](http://gitt.io/badge.svg)](http://gitt.io/component/nl.fokkezb.magicpie) [![NPM](https://img.shields.io/npm/v/ti-module-nl.fokkezb.colorpick.svg?style=flat-square)](https://www.npmjs.com/package/ti-module-nl.fokkezb.magicpie)
 
 A Titanium wrapper for [MagicPie](https://github.com/AlexandrGraschenkov/MagicPie).
 
+## Example
+See [example/apps.js](example/app.js) to learn by example.
+
 <img src="https://github.com/Sk0rpion/MagicPie/blob/master/MagicPie.gif?raw=true" alt="Demo" width="359" height="704" />
 
-## Learn by example
+## Get it
+Download the latest [distribution](dist) and consult the [Titanium Documentation](http://docs.appcelerator.com/titanium/latest/#!/guide/Using_a_Module) on how install it.
 
-See the [example](example/app.js).
+Or use the [gitTio CLI](http://gitt.io/cli) [![gitTio](http://gitt.io/badge.svg)](http://gitt.io/component/nl.fokkezb.magicpie)
 
-## How to use
+`$ gittio install nl.fokkezb.magicpie`
+
+Or NPM [![NPM](https://img.shields.io/npm/v/ti-module-nl.fokkezb.colorpick.svg?style=flat-square)](https://www.npmjs.com/package/ti-module-nl.fokkezb.magicpie)
+
+`$ npm i --save ti-module-nl.fokkezb.magicpie`
+
+## Use it
 
 ### Create a pie-view
 
